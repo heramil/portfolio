@@ -1,0 +1,10 @@
+.about {
+  margin-left: 14rem;
+}
+
+.aboutContainer {
+  display: grid;
+  place-content: center;
+  align-items: center;
+  height: 100vh;
+}

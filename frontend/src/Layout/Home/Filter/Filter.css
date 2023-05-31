@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 2rem 2rem 0 2rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.form > div {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.design > input {
+  position: absolute;
+  height: 1.25rem;
+  width: 0;
+  min-width: 4rem;
+  opacity: 0;
+}
+
+.webdev > input {
+  position: absolute;
+  height: 1.25rem;
+  width: 0;
+  min-width: 4rem;
+  opacity: 0;
+}
+
+.frontend > input {
+  position: absolute;
+  height: 1.25rem;
+  width: 0;
+  min-width: 4rem;
+  opacity: 0;
+}
+
+.fullstack > input {
+  position: absolute;
+  height: 1.25rem;
+  width: 0;
+  min-width: 4rem;
+  opacity: 0;
+}

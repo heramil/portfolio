@@ -1,0 +1,41 @@
+.hero-content {
+  padding: 2rem;
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+.companies {
+  display: flex;
+}
+
+.company {
+  margin: 1rem 1rem 1rem 0;
+  background-color: #444;
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.period {
+  display: flex;
+}
+
+.period h3 {
+  margin: 0 1rem 1rem 0;
+}
+
+.duration h4 {
+  margin: 0 1rem 0 0;
+}
+
+.container {
+  margin: 1rem 0 1rem 0;
+}
+
+.phases > .phase {
+  margin: 1rem 0 1rem 0;
+}
+
+.technologies {
+  margin: 1rem 0 1rem 0;
+}
