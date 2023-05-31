@@ -14,7 +14,7 @@ module.exports = {
 	},
 	test: {
 		client: "postgresql",
-		connection: DATABASE_URL_TEST,
+		connection: process.env.DATABASE_URL_TEST,
 		migrations: {
 			directory: path.join(__dirname, "src", "db", "migrations"),
 		},
@@ -24,7 +24,7 @@ module.exports = {
 	},
 	staging: {
 		client: "postgresql",
-		connection: DATABASE_URL_STAGING,
+		connection: process.env.DATABASE_URL_STAGING,
 		migrations: {
 			directory: path.join(__dirname, "src", "db", "migrations"),
 		},
@@ -34,7 +34,7 @@ module.exports = {
 	},
 	production: {
 		client: "postgresql",
-		connection: DATABASE_URL_PRODUCTION,
+		connection: process.env.DATABASE_URL_PRODUCTION,
 		migrations: {
 			directory: path.join(__dirname, "src", "db", "migrations"),
 		},
