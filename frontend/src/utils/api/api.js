@@ -29,6 +29,6 @@ async function fetchJson(url, options, onCancel) {
  *  a promise that resolves to a possibly empty array of decks saved in the database.
  */
 export async function listProjects(signal) {
-  const url = `${API_BASE_URL}/projects`;
+  const url = `${API_BASE_URL}`;
   return await fetchJson(url, { signal }, []);
 }
